@@ -1,1 +1,3 @@
-# dataanalystsite
+---
+permalink: /index.html
+---
