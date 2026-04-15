@@ -274,6 +274,50 @@ footer {
   opacity: 0.9;
 }
 
+/* Contact Info Section */
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.contact-info-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contact-info-item i {
+  font-size: 1.2rem;
+  width: 2.2rem;
+  height: 2.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1); /* adjust to your theme */
+  flex-shrink: 0;
+}
+
+.contact-info-label {
+  display: block;
+  font-size: 0.75rem;
+  opacity: 0.6;
+  margin-bottom: 0.15rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.contact-info-item a {
+  font-size: 0.95rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.contact-info-item a:hover {
+  text-decoration: underline;
+}
+
 .tech-section {
   padding: 20px 20px;
   text-align: center;
